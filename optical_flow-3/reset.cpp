@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-	system("sudo modprobe bcm2835-v412");
+	system("rm state.txt");
+	system("sudo modprobe bcm2835-v4l2");
 	system("./FaceDetect");
 	while(1)
 	{
@@ -13,6 +14,7 @@ int main()
 		if(now->tm_hour == 0 && now->tm_min == 0 && now-> tm_sec == 0)
 		{
 			system("killall FaceDetect");
+			system("rm state.txt");
 			system("./FaceDetect");
 		} 
 	}
