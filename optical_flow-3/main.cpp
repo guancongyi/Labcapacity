@@ -1,10 +1,7 @@
 ﻿#include "Header.h"
 int main()
 {
-	clock_t old_clock;
-	int time;
-	old_clock = clock();
-	int delay = 10;
+	time_t t= time(0);
 	//---------------------------------------------
 	ofstream out("data.txt");
 	VideoCapture capture(0);
@@ -23,15 +20,14 @@ int main()
 		waitKey(10); //wait to show
 		capture >> frame_current; //read in current flow
 		waitKey(10); 
-		time = (clock() - old_clock) / (double)CLOCKS_PER_SEC;
-		if (time >= delay)
+		if ((time(0)-t) >= 180)
 		{
 			out.close();
 			//call calculation
 			system("./a.out");
 			waitKey(100);
 			out.open("data.txt");
-			old_clock = clock();
+			t = time(0);
 			
 		}
 	}

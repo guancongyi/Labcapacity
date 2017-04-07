@@ -3,6 +3,7 @@
 #include <vector>
 #include <numeric>
 #include <cmath>
+#include <ctime>
 using namespace std;
 float calculateSD(vector<int> data);
 
@@ -10,6 +11,8 @@ float calculateSD(vector<int> data);
 int main()
 {
 	ifstream in("data.txt");
+	ofstream out;
+	out.open("state.txt",fstream::app);
 	vector<int> store;
 	int x;
 	int zero_flag = 0;
@@ -28,24 +31,33 @@ int main()
 	float compare1 = (average - 2) / (stdev / sqrt(store.size()));
 	if (compare >= 1.644854) //full
 	{
-		cout << "full" << endl;
+		out << "full" << endl;
 	}
 	else if (compare1 >= 1.644854) //half-full
 	{
-		cout << "half-full" << endl;
+		out << "half-full" << endl;
 	}
 	else if(zero_flag <= 2)     //empty
 	{
-		cout << "empty" << endl;
+		out << "empty" << endl;
 	}
 	else
 	{
-		cout << "a few people" << endl;
+		out << "a few people" << endl;
 	}
-
-	
-
-
+	time_t t = time(0);   // get time now
+	struct tm * now = localtime( & t );
+    	out << (now->tm_year + 1900) << '-' 
+         << (now->tm_mon + 1) << '-'
+         <<  now->tm_mday
+	 << '-'
+	 << now-> tm_hour
+	 << '-'
+         << now-> tm_min
+	 << '-'
+	 << now-> tm_sec
+	 << endl;
+	out.close();
 	return 0;
 }
 
