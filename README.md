@@ -1,2 +1,2 @@
 # Labcapacity
-import camera: sudo modprobe bcm2835-v412
+import camera: sudo modprobe bcm2835-v4l2
