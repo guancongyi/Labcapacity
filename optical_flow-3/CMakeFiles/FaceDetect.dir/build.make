@@ -174,7 +174,6 @@ FaceDetect: /usr/local/lib/libopencv_superres.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_stitching.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_contrib.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_nonfree.so.2.4.13
-FaceDetect: /usr/local/lib/libopencv_ocl.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_gpu.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_photo.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_objdetect.so.2.4.13

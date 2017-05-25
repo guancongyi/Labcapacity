@@ -6,9 +6,9 @@ void myfunc(Mat &image1, Mat &image2, ofstream &out)
 	vector<Point2f>features2;
 	vector<uchar> status;
 	vector<float> err;
-	int maxCount = 1700; //max point
-	double minDis = 10; //min distance between points
-	double qLevel = 0.02;  //quality level
+	int maxCount = 2000; //max point
+	double minDis =10; //min distance between points
+	double qLevel = 0.01;  //quality level
 	//find good feature on image1
 	goodFeaturesToTrack(image1, features, maxCount, qLevel, minDis);
 	//calculate the difference of these two points
@@ -18,7 +18,7 @@ void myfunc(Mat &image1, Mat &image2, ofstream &out)
 	{
 		if (status[i] && ((abs(features[i].x - features2[i].x) + abs(features[i].y - features2[i].y))>2)) //differents between feature 1 and 2 are larger than 2
 		{
-			k++;
+			features2[k++] = features2[i];
 			//-----------------find x and y of moving points-------------------
 			int calx = features2[i].x;
 			int caly = features2[i].y;

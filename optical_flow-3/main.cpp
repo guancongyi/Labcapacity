@@ -8,7 +8,7 @@ int main()
 	//---------------------------------------------
 	ofstream out("data.txt");
 	VideoCapture capture(0);
-	capture.set(CV_CAP_PROP_FPS,30);
+	capture.set(CV_CAP_PROP_FPS,24);
 	Mat frame_current;
 	Mat frame_old;
 	capture >> frame_old; //read in the old frame
