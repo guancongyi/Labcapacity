@@ -12,7 +12,6 @@ int main()
 	Mat frame_current;
 	Mat frame_old;
 	capture >> frame_old; //read in the old frame
-	//waitKey(20); 
 	capture >> frame_current; //read in the next frame
 	while (!frame_current.empty()) 
 	{
@@ -22,9 +21,7 @@ int main()
 		myfunc(frame_current, frame_old, out); //call the compute function
 		waitKey(10); //wait to show
 		capture >> frame_old; //read in old
-		//
 		capture >> frame_current; //read in current flow
-		//waitKey(10); 
 		if ((time(0)-t) >= 180)
 		{
 			out.close();
@@ -33,7 +30,7 @@ int main()
 			out.open("data.txt");
 			t = time(0);
 		}
-		clean();
+		clean(); //clean up state.txt after one day of running
 	}
 	return 0;
 }
