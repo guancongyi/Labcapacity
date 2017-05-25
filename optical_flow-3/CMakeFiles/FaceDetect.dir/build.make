@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/optical_flow-3
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Labcapacity/optical_flow-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/optical_flow-3
+CMAKE_BINARY_DIR = /home/pi/Desktop/Labcapacity/optical_flow-3
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FaceDetect.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/FaceDetect.dir/flags.make
 
 CMakeFiles/FaceDetect.dir/myfunc.cpp.o: CMakeFiles/FaceDetect.dir/flags.make
 CMakeFiles/FaceDetect.dir/myfunc.cpp.o: myfunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FaceDetect.dir/myfunc.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/myfunc.cpp.o -c /home/pi/Desktop/optical_flow-3/myfunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FaceDetect.dir/myfunc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/myfunc.cpp.o -c /home/pi/Desktop/Labcapacity/optical_flow-3/myfunc.cpp
 
 CMakeFiles/FaceDetect.dir/myfunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetect.dir/myfunc.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/optical_flow-3/myfunc.cpp > CMakeFiles/FaceDetect.dir/myfunc.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Labcapacity/optical_flow-3/myfunc.cpp > CMakeFiles/FaceDetect.dir/myfunc.cpp.i
 
 CMakeFiles/FaceDetect.dir/myfunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetect.dir/myfunc.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/optical_flow-3/myfunc.cpp -o CMakeFiles/FaceDetect.dir/myfunc.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Labcapacity/optical_flow-3/myfunc.cpp -o CMakeFiles/FaceDetect.dir/myfunc.cpp.s
 
 CMakeFiles/FaceDetect.dir/myfunc.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/FaceDetect.dir/myfunc.cpp.o.provides.build: CMakeFiles/FaceDetect.dir
 
 CMakeFiles/FaceDetect.dir/main.cpp.o: CMakeFiles/FaceDetect.dir/flags.make
 CMakeFiles/FaceDetect.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FaceDetect.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/main.cpp.o -c /home/pi/Desktop/optical_flow-3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FaceDetect.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/main.cpp.o -c /home/pi/Desktop/Labcapacity/optical_flow-3/main.cpp
 
 CMakeFiles/FaceDetect.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetect.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/optical_flow-3/main.cpp > CMakeFiles/FaceDetect.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Labcapacity/optical_flow-3/main.cpp > CMakeFiles/FaceDetect.dir/main.cpp.i
 
 CMakeFiles/FaceDetect.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetect.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/optical_flow-3/main.cpp -o CMakeFiles/FaceDetect.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Labcapacity/optical_flow-3/main.cpp -o CMakeFiles/FaceDetect.dir/main.cpp.s
 
 CMakeFiles/FaceDetect.dir/main.cpp.o.requires:
 
@@ -105,16 +105,68 @@ CMakeFiles/FaceDetect.dir/main.cpp.o.provides: CMakeFiles/FaceDetect.dir/main.cp
 CMakeFiles/FaceDetect.dir/main.cpp.o.provides.build: CMakeFiles/FaceDetect.dir/main.cpp.o
 
 
+CMakeFiles/FaceDetect.dir/calc.cpp.o: CMakeFiles/FaceDetect.dir/flags.make
+CMakeFiles/FaceDetect.dir/calc.cpp.o: calc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FaceDetect.dir/calc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/calc.cpp.o -c /home/pi/Desktop/Labcapacity/optical_flow-3/calc.cpp
+
+CMakeFiles/FaceDetect.dir/calc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetect.dir/calc.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Labcapacity/optical_flow-3/calc.cpp > CMakeFiles/FaceDetect.dir/calc.cpp.i
+
+CMakeFiles/FaceDetect.dir/calc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetect.dir/calc.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Labcapacity/optical_flow-3/calc.cpp -o CMakeFiles/FaceDetect.dir/calc.cpp.s
+
+CMakeFiles/FaceDetect.dir/calc.cpp.o.requires:
+
+.PHONY : CMakeFiles/FaceDetect.dir/calc.cpp.o.requires
+
+CMakeFiles/FaceDetect.dir/calc.cpp.o.provides: CMakeFiles/FaceDetect.dir/calc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/calc.cpp.o.provides.build
+.PHONY : CMakeFiles/FaceDetect.dir/calc.cpp.o.provides
+
+CMakeFiles/FaceDetect.dir/calc.cpp.o.provides.build: CMakeFiles/FaceDetect.dir/calc.cpp.o
+
+
+CMakeFiles/FaceDetect.dir/clean.cpp.o: CMakeFiles/FaceDetect.dir/flags.make
+CMakeFiles/FaceDetect.dir/clean.cpp.o: clean.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FaceDetect.dir/clean.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetect.dir/clean.cpp.o -c /home/pi/Desktop/Labcapacity/optical_flow-3/clean.cpp
+
+CMakeFiles/FaceDetect.dir/clean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetect.dir/clean.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Labcapacity/optical_flow-3/clean.cpp > CMakeFiles/FaceDetect.dir/clean.cpp.i
+
+CMakeFiles/FaceDetect.dir/clean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetect.dir/clean.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Labcapacity/optical_flow-3/clean.cpp -o CMakeFiles/FaceDetect.dir/clean.cpp.s
+
+CMakeFiles/FaceDetect.dir/clean.cpp.o.requires:
+
+.PHONY : CMakeFiles/FaceDetect.dir/clean.cpp.o.requires
+
+CMakeFiles/FaceDetect.dir/clean.cpp.o.provides: CMakeFiles/FaceDetect.dir/clean.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/clean.cpp.o.provides.build
+.PHONY : CMakeFiles/FaceDetect.dir/clean.cpp.o.provides
+
+CMakeFiles/FaceDetect.dir/clean.cpp.o.provides.build: CMakeFiles/FaceDetect.dir/clean.cpp.o
+
+
 # Object files for target FaceDetect
 FaceDetect_OBJECTS = \
 "CMakeFiles/FaceDetect.dir/myfunc.cpp.o" \
-"CMakeFiles/FaceDetect.dir/main.cpp.o"
+"CMakeFiles/FaceDetect.dir/main.cpp.o" \
+"CMakeFiles/FaceDetect.dir/calc.cpp.o" \
+"CMakeFiles/FaceDetect.dir/clean.cpp.o"
 
 # External object files for target FaceDetect
 FaceDetect_EXTERNAL_OBJECTS =
 
 FaceDetect: CMakeFiles/FaceDetect.dir/myfunc.cpp.o
 FaceDetect: CMakeFiles/FaceDetect.dir/main.cpp.o
+FaceDetect: CMakeFiles/FaceDetect.dir/calc.cpp.o
+FaceDetect: CMakeFiles/FaceDetect.dir/clean.cpp.o
 FaceDetect: CMakeFiles/FaceDetect.dir/build.make
 FaceDetect: /usr/local/lib/libopencv_videostab.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_ts.a
@@ -122,6 +174,7 @@ FaceDetect: /usr/local/lib/libopencv_superres.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_stitching.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_contrib.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_nonfree.so.2.4.13
+FaceDetect: /usr/local/lib/libopencv_ocl.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_gpu.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_photo.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_objdetect.so.2.4.13
@@ -135,7 +188,7 @@ FaceDetect: /usr/local/lib/libopencv_imgproc.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_flann.so.2.4.13
 FaceDetect: /usr/local/lib/libopencv_core.so.2.4.13
 FaceDetect: CMakeFiles/FaceDetect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FaceDetect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FaceDetect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FaceDetect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +198,8 @@ CMakeFiles/FaceDetect.dir/build: FaceDetect
 
 CMakeFiles/FaceDetect.dir/requires: CMakeFiles/FaceDetect.dir/myfunc.cpp.o.requires
 CMakeFiles/FaceDetect.dir/requires: CMakeFiles/FaceDetect.dir/main.cpp.o.requires
+CMakeFiles/FaceDetect.dir/requires: CMakeFiles/FaceDetect.dir/calc.cpp.o.requires
+CMakeFiles/FaceDetect.dir/requires: CMakeFiles/FaceDetect.dir/clean.cpp.o.requires
 
 .PHONY : CMakeFiles/FaceDetect.dir/requires
 
@@ -153,6 +208,6 @@ CMakeFiles/FaceDetect.dir/clean:
 .PHONY : CMakeFiles/FaceDetect.dir/clean
 
 CMakeFiles/FaceDetect.dir/depend:
-	cd /home/pi/Desktop/optical_flow-3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/optical_flow-3 /home/pi/Desktop/optical_flow-3 /home/pi/Desktop/optical_flow-3 /home/pi/Desktop/optical_flow-3 /home/pi/Desktop/optical_flow-3/CMakeFiles/FaceDetect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Desktop/Labcapacity/optical_flow-3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/Labcapacity/optical_flow-3 /home/pi/Desktop/Labcapacity/optical_flow-3 /home/pi/Desktop/Labcapacity/optical_flow-3 /home/pi/Desktop/Labcapacity/optical_flow-3 /home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/FaceDetect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FaceDetect.dir/depend
 

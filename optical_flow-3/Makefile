@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/optical_flow-3
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Labcapacity/optical_flow-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/optical_flow-3
+CMAKE_BINARY_DIR = /home/pi/Desktop/Labcapacity/optical_flow-3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/optical_flow-3/CMakeFiles /home/pi/Desktop/optical_flow-3/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles /home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/optical_flow-3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ FaceDetect: cmake_check_build_system
 FaceDetect/fast:
 	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/build
 .PHONY : FaceDetect/fast
+
+calc.o: calc.cpp.o
+
+.PHONY : calc.o
+
+# target to build an object file
+calc.cpp.o:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/calc.cpp.o
+.PHONY : calc.cpp.o
+
+calc.i: calc.cpp.i
+
+.PHONY : calc.i
+
+# target to preprocess a source file
+calc.cpp.i:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/calc.cpp.i
+.PHONY : calc.cpp.i
+
+calc.s: calc.cpp.s
+
+.PHONY : calc.s
+
+# target to generate assembly for a file
+calc.cpp.s:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/calc.cpp.s
+.PHONY : calc.cpp.s
+
+clean.o: clean.cpp.o
+
+.PHONY : clean.o
+
+# target to build an object file
+clean.cpp.o:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/clean.cpp.o
+.PHONY : clean.cpp.o
+
+clean.i: clean.cpp.i
+
+.PHONY : clean.i
+
+# target to preprocess a source file
+clean.cpp.i:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/clean.cpp.i
+.PHONY : clean.cpp.i
+
+clean.s: clean.cpp.s
+
+.PHONY : clean.s
+
+# target to generate assembly for a file
+clean.cpp.s:
+	$(MAKE) -f CMakeFiles/FaceDetect.dir/build.make CMakeFiles/FaceDetect.dir/clean.cpp.s
+.PHONY : clean.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,6 +240,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FaceDetect"
+	@echo "... calc.o"
+	@echo "... calc.i"
+	@echo "... calc.s"
+	@echo "... clean.o"
+	@echo "... clean.i"
+	@echo "... clean.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

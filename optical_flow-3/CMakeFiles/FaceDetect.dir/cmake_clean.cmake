@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FaceDetect.dir/myfunc.cpp.o"
   "CMakeFiles/FaceDetect.dir/main.cpp.o"
+  "CMakeFiles/FaceDetect.dir/calc.cpp.o"
+  "CMakeFiles/FaceDetect.dir/clean.cpp.o"
   "FaceDetect.pdb"
   "FaceDetect"
 )

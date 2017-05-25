@@ -11,9 +11,15 @@
 #include <iostream>
 #include <ctime>
 #include <fstream>
+#include <vector>
+#include <numeric>
+#include <cmath>
+
 using namespace std;
 using namespace cv;
-
+void cal();
+void clean();
+float calculateSD(vector<int> data);
 void myfunc(Mat &image1, Mat &image2, ofstream &out);
 void output_data(int squares, ofstream &out);
 void display(vector<Point2f> &features2, int k, Mat &image1);

@@ -1,14 +1,6 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <numeric>
-#include <cmath>
-#include <ctime>
-using namespace std;
-float calculateSD(vector<int> data);
+﻿#include "Header.h"
 
-
-int main()
+void cal()
 {
 	ifstream in("data.txt");
 	ofstream out;
@@ -58,7 +50,6 @@ int main()
 	 << now-> tm_sec
 	 << endl;
 	out.close();
-	return 0;
 }
 
 float calculateSD(vector<int> data)

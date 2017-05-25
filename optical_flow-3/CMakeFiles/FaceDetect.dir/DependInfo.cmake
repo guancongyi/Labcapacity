@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Desktop/optical_flow-3/main.cpp" "/home/pi/Desktop/optical_flow-3/CMakeFiles/FaceDetect.dir/main.cpp.o"
-  "/home/pi/Desktop/optical_flow-3/myfunc.cpp" "/home/pi/Desktop/optical_flow-3/CMakeFiles/FaceDetect.dir/myfunc.cpp.o"
+  "/home/pi/Desktop/Labcapacity/optical_flow-3/calc.cpp" "/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/FaceDetect.dir/calc.cpp.o"
+  "/home/pi/Desktop/Labcapacity/optical_flow-3/clean.cpp" "/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/FaceDetect.dir/clean.cpp.o"
+  "/home/pi/Desktop/Labcapacity/optical_flow-3/main.cpp" "/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/FaceDetect.dir/main.cpp.o"
+  "/home/pi/Desktop/Labcapacity/optical_flow-3/myfunc.cpp" "/home/pi/Desktop/Labcapacity/optical_flow-3/CMakeFiles/FaceDetect.dir/myfunc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

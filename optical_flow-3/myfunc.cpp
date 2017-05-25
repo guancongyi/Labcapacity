@@ -6,21 +6,19 @@ void myfunc(Mat &image1, Mat &image2, ofstream &out)
 	vector<Point2f>features2;
 	vector<uchar> status;
 	vector<float> err;
-	int maxCount = 1700; //max读取点数
-	double minDis = 10; //最小特征点的距离
-	double qLevel = 0.01; 
-	//读取灰度图像
+	int maxCount = 1700; //max point
+	double minDis = 10; //min distance between points
+	double qLevel = 0.02;  //quality level
+	//find good feature on image1
 	goodFeaturesToTrack(image1, features, maxCount, qLevel, minDis);
-	//第一幅图的特征点
+	//calculate the difference of these two points
 	calcOpticalFlowPyrLK(image1, image2, features, features2, status, err);
-	//计算出第二帧的特点
 	int k = 0;
 	for (int i = 0; i < features2.size(); i++)
 	{
-		if (status[i] && ((abs(features[i].x - features2[i].x) + abs(features[i].y - features2[i].y))>2)) //循环每个点如果点在运动而且x，y轴和大于2 
+		if (status[i] && ((abs(features[i].x - features2[i].x) + abs(features[i].y - features2[i].y))>2)) //differents between feature 1 and 2 are larger than 2
 		{
-			features2[k++] = features2[i]; //重新赋值features2
-
+			k++;
 			//-----------------find x and y of moving points-------------------
 			int calx = features2[i].x;
 			int caly = features2[i].y;

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Desktop/optical_flow-3/Header.h
+/home/pi/Desktop/Labcapacity/optical_flow-3/Header.h
 opencv2/highgui/highgui.hpp
 -
 opencv2/imgproc/imgproc.hpp
@@ -27,14 +27,28 @@ ctime
 -
 fstream
 -
+vector
+-
+numeric
+-
+cmath
+-
 
-/home/pi/Desktop/optical_flow-3/main.cpp
+/home/pi/Desktop/Labcapacity/optical_flow-3/calc.cpp
 Header.h
-/home/pi/Desktop/optical_flow-3/Header.h
+/home/pi/Desktop/Labcapacity/optical_flow-3/Header.h
 
-/home/pi/Desktop/optical_flow-3/myfunc.cpp
+/home/pi/Desktop/Labcapacity/optical_flow-3/clean.cpp
 Header.h
-/home/pi/Desktop/optical_flow-3/Header.h
+/home/pi/Desktop/Labcapacity/optical_flow-3/Header.h
+
+/home/pi/Desktop/Labcapacity/optical_flow-3/main.cpp
+Header.h
+/home/pi/Desktop/Labcapacity/optical_flow-3/Header.h
+
+/home/pi/Desktop/Labcapacity/optical_flow-3/myfunc.cpp
+Header.h
+/home/pi/Desktop/Labcapacity/optical_flow-3/Header.h
 
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core/types_c.h
